@@ -25,7 +25,10 @@ public class PrintEmployee {
 		Iterator it=employeearray.iterator();
 		while(it.hasNext())
 			System.out.println(it.next());
-		System.out.println("*****************************************************");
+		System.out.println("************");
+		{
+			int i=0;
+			String s = name;
 		
 	}
 
