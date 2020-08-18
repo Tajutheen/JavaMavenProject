@@ -29,6 +29,8 @@ public class PrintEmployee {
 		{
 			int i=0;
 			String s = name;
+			String s = age;
+			System.out.println("Enter the details");
 		
 	}
 
