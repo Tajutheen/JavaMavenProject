@@ -26,6 +26,7 @@ public class PrintEmployee {
 		while(it.hasNext())
 			System.out.println(it.next());
 		System.out.println("*****************************************************");
+		System.out.println("Enter the drtails");
 		
 	}
 
