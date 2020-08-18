@@ -19,14 +19,17 @@ public class PrintEmployee {
 		while(listIterator.hasPrevious())
 			System.out.println(listIterator.previous());
 		
-		System.out.println("*************************************************");
+		System.out.println("Enter the emp details");
 		System.out.println("After sorting on the basis of Salary");
 		Collections.sort(employeearray,new SalaryComparator());
 		Iterator it=employeearray.iterator();
 		while(it.hasNext())
 			System.out.println(it.next());
+
 		System.out.println("*****************************************************");
 		System.out.println("Enter the drtails");
+		System.out.println("End");
+
 		
 	}
 
