@@ -25,7 +25,11 @@ public class PrintEmployee {
 		Iterator it=employeearray.iterator();
 		while(it.hasNext())
 			System.out.println(it.next());
+
+		System.out.println("*****************************************************");
+		System.out.println("Enter the drtails");
 		System.out.println("End");
+
 		
 	}
 
